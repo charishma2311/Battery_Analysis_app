@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Battery Graph</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>🔋 Battery Analysis Result</h2>
+        <div id="plot">{{ plot | safe }}</div>
+        <p style="text-align:center;"><a href="/dashboard" style="color:#00c6ff;">Upload another file</a></p>
+    </div>
+</body>
+</html>
